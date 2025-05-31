@@ -7,7 +7,7 @@ To use this script, you need one of these:
 <li>Greasemonkey</li>
 <hr>
 Before: 
-![изображение](https://github.com/user-attachments/assets/13edb48c-dd13-42bb-851c-3c59d72be85e)
+![изображение](https://github.com/user-attachments/assets/1f0abdb1-826d-4cb9-acdc-a70bee9e06fb)
 
 After:
 ![изображение](https://github.com/user-attachments/assets/75a4a840-f960-4023-96f1-99015fe8ce8b)
