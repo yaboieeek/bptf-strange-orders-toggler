@@ -5,12 +5,13 @@
 // @description  i cant see shit ffs remove stranges
 // @author       eeek
 // @match        https://backpack.tf/stats/Unusual/*/Tradable/Craftable/*
-// @match        https://backpack.tf/classifieds?item=*&quality=5&tradable=1&craftable=1&particle=*&australium=-1*
+// @match        https://backpack.tf/classifieds?*&quality=5&tradable=1*&particle=*
+// @downloadURL https://github.com/yaboieeek/bptf-strange-orders-toggler/raw/refs/heads/main/strange-orders-toggler.user.js
+// @updateURL https://github.com/yaboieeek/bptf-strange-orders-toggler/raw/refs/heads/main/strange-orders-toggler.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=backpack.tf
 // ==/UserScript==
 
-
-const buyOrdersContainer = document.querySelectorAll('.media-list')[1];
+const buyOrdersContainer = document.querySelectorAll('.media-list')[1]|| [];
 const buyOrderCollection = buyOrdersContainer.querySelectorAll('li');
 
 const buyOrderToggler = document.createElement('button');
