@@ -6,7 +6,9 @@ To use this script, you need one of these:
 <li>Tampermonkey</li>
 <li>Greasemonkey</li>
 
+Before: 
+![изображение](https://github.com/user-attachments/assets/75a4a840-f960-4023-96f1-99015fe8ce8b)
 
-![изображение](https://github.com/user-attachments/assets/75a4a840-f960-4023-96f1-99015fe8ce8b);
+After:
 ![изображение](https://github.com/user-attachments/assets/13edb48c-dd13-42bb-851c-3c59d72be85e)
 
