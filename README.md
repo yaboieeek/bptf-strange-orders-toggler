@@ -5,11 +5,11 @@
 To use this script, you need one of these: 
 <li>Tampermonkey</li>
 <li>Greasemonkey</li>
-<hr>
+<hr></hr>
 Before: 
-![изображение](https://github.com/user-attachments/assets/1f0abdb1-826d-4cb9-acdc-a70bee9e06fb)
+<img src = 'https://github.com/user-attachments/assets/1f0abdb1-826d-4cb9-acdc-a70bee9e06fb'>
 
 After:
-![изображение](https://github.com/user-attachments/assets/75a4a840-f960-4023-96f1-99015fe8ce8b)
+<img src = 'https://github.com/user-attachments/assets/75a4a840-f960-4023-96f1-99015fe8ce8b'>
 
 
