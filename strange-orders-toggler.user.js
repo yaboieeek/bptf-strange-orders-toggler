@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Strange unusuals toggler
 // @namespace   eeek
-// @version      1
+// @version      1.0.1
 // @description  i cant see shit ffs remove stranges
 // @author       eeek
 // @match        https://backpack.tf/stats/Unusual/*/Tradable/Craftable/*
@@ -14,7 +14,7 @@ const buyOrdersContainer = document.querySelectorAll('.media-list')[1];
 const buyOrderCollection = buyOrdersContainer.querySelectorAll('li');
 
 const buyOrderToggler = document.createElement('button');
-
+const strangeBuyOrderCollection = [];
 // const buyOrderLoader = document.createElement('button');
 // buyOrderLoader.innerText = 'Load more orders via API';
 
@@ -24,15 +24,16 @@ for (const buyOrder of buyOrderCollection) {
     if (!title.innerText.toLowerCase().includes('strange')) continue;
     strangeOrdersCounter++;
     buyOrder.classList.add('strange-buyorder', 'inactive');
+    strangeBuyOrderCollection.push(buyOrder);
 }
+
 buyOrderToggler.innerText = `Toggle ${strangeOrdersCounter} strange orders`;
 
 console.log(buyOrdersContainer, buyOrderToggler)
 buyOrdersContainer.prepend(buyOrderToggler);
 
 buyOrderToggler.addEventListener('click', function () {
-    console.log(`Button was clicked! Orders collection is:\n${Array.from(buyOrderCollection)}`)
-    buyOrderCollection.forEach(buyOrder => buyOrder.classList.toggle('inactive'));
+    strangeBuyOrderCollection.forEach(buyOrder => buyOrder.classList.toggle('inactive'));
 })
 
 const styling = `
