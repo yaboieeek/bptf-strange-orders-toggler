@@ -5,7 +5,7 @@
 To use this script, you need one of these: 
 <li>Tampermonkey</li>
 <li>Greasemonkey</li>
-
+<hr>
 Before: 
 ![изображение](https://github.com/user-attachments/assets/13edb48c-dd13-42bb-851c-3c59d72be85e)
 
